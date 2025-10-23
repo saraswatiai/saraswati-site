@@ -12,7 +12,9 @@
     "tech": ["TypeScript", "Chrome Extension", "Dashboard"],
     "github": "https://github.com/saraswatiai/peek",
     "demo": "https://youtu.be/90pX19ukKMc",
-    "image": "./peek-thumbnail.png"
+    "image": "./peek-thumbnail.png",
+    "quote": "If there’s a book that you want to read, but it hasn’t been written yet, then you must write it.",
+    "quote_author": "Toni Morrison"
   },
   {
     "id": "maitre",
@@ -27,6 +29,9 @@
     "tech": ["React", "Java", "Protege"],
     "github": "https://github.com/saraswatiai/maitre",
     "demo": "https://youtu.be/hlmTJ0q3cpI",
-    "image": "./maitre-thumbnail.png"
+    "image": "./maitre-thumbnail.png",
+    "quote": "A wonderful harmony is created when we join together the seemingly unconnected.",
+    "quote_author": "Heraclitus"
+
   }
 ]

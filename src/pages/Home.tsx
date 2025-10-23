@@ -196,16 +196,12 @@ export default function Home() {
                   ))}
                 </div>
 
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {solution.tech.map((tech) => (
-                    <span
-                      key={tech}
-                      className="px-3 py-1 bg-primary-500/10 border border-primary-500/30 rounded-full text-xs text-primary-300"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
+                <blockquote className="border-l-4 border-primary-500/50 pl-4 mt-6">
+                  <p className="text-sm text-gray-300 italic mb-1">
+                    "{solution.quote}"
+                  </p>
+                  <cite className="text-xs text-gray-400 not-italic">— {solution.quote_author}</cite>
+                </blockquote>
               </Card>
             ))}
           </div>
@@ -219,16 +215,16 @@ export default function Home() {
             <h2 className="text-4xl sm:text-5xl font-bold text-white mb-6">
               Why <span className="gradient-text">Saraswati?</span>
             </h2>
+            <p className="text-lg text-gray-300 mb-6">
+              Named after the Hindu goddess of knowledge, wisdom, and learning, Saraswati embodies the
+              principle that knowledge grows when shared freely.
+            </p>
             <blockquote className="border-l-4 border-primary-500 pl-6 mb-8">
               <p className="text-xl text-gray-200 italic mb-4">
                 "A wonderful harmony is created when we join together the seemingly unconnected."
               </p>
               <cite className="text-gray-400 not-italic">— Heraclitus</cite>
             </blockquote>
-            <p className="text-lg text-gray-300 mb-6">
-              Named after the Hindu goddess of knowledge, wisdom, and learning, Saraswati embodies the
-              principle that knowledge grows when shared freely.
-            </p>
 
             <div className="space-y-4">
               <div className="flex items-start space-x-4">

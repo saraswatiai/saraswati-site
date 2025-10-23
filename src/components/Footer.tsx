@@ -32,7 +32,7 @@ export default function Footer() {
               <span className="text-xl font-bold gradient-text">Saraswati</span>
             </div>
             <p className="text-gray-400 text-sm">
-              Open source tools for defining and managing knowledge sources.
+              Open source tools for defining and managing knowledge.
             </p>
           </div>
 
