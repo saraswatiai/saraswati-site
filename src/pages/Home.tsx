@@ -219,12 +219,7 @@ export default function Home() {
               Named after the Hindu goddess of knowledge, wisdom, and learning, Saraswati embodies the
               principle that knowledge grows when shared freely.
             </p>
-            <blockquote className="border-l-4 border-primary-500 pl-6 mb-8">
-              <p className="text-xl text-gray-200 italic mb-4">
-                "A wonderful harmony is created when we join together the seemingly unconnected."
-              </p>
-              <cite className="text-gray-400 not-italic">— Heraclitus</cite>
-            </blockquote>
+
 
             <div className="space-y-4">
               <div className="flex items-start space-x-4">
