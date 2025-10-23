@@ -27,12 +27,12 @@ export default function Home() {
     <>
       <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
         <div className="absolute inset-0 bg-gradient-to-br from-primary-900/20 via-purple-900/20 to-blue-900/20"></div>
-        <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-primary-900/10 via-purple-900/10 to-blue-900/10"></div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <div className="flex justify-center mb-8 scroll-animate">
             <img
-              src="/logo.png"
+              src="./logo.png"
               alt="Saraswati"
               className="w-24 h-24"
             />

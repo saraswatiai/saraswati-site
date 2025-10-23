@@ -11,7 +11,7 @@
     ],
     "tech": ["TypeScript", "Node.js", "Browser"],
     "github": "https://github.com/saraswatiai/peek",
-    "image": "/peek-thumbnail.png"
+    "image": "./peek-thumbnail.png"
   },
   {
     "id": "maitre",
@@ -25,6 +25,6 @@
     ],
     "tech": ["Python", "Neo4j", "React"],
     "github": "https://github.com/saraswatiai/maitre",
-    "image": "/maitre-thumbnail.png"
+    "image": "./maitre-thumbnail.png"
   }
 ]
