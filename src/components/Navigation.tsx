@@ -29,7 +29,7 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-3">
             <img
-              src="/ChatGPT Image Oct 23, 2025, 05_35_56 AM.png"
+              src="/logo.png"
               alt="Saraswati"
               className="w-10 h-10"
             />

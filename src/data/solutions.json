@@ -10,8 +10,8 @@
       "Zero dependencies"
     ],
     "tech": ["TypeScript", "Node.js", "Browser"],
-    "github": "https://github.com/saraswati/peek",
-    "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
+    "github": "https://github.com/saraswatiai/peek",
+    "image": "/peek-thumbnail.png"
   },
   {
     "id": "maitre",
@@ -24,7 +24,7 @@
       "Version control for nodes"
     ],
     "tech": ["Python", "Neo4j", "React"],
-    "github": "https://github.com/saraswati/maitre",
-    "image": "https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg"
+    "github": "https://github.com/saraswatiai/maitre",
+    "image": "/maitre-thumbnail.png"
   }
 ]
