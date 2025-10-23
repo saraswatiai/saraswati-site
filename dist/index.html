@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saraswati - Open Source Knowledge Tools</title>
+    <meta name="description" content="Build transparent, trustworthy knowledge systems with proper source attribution and provenance tracking." />
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                50: '#f0f9ff',
+                100: '#e0f2fe',
+                200: '#bae6fd',
+                300: '#7dd3fc',
+                400: '#38bdf8',
+                500: '#0ea5e9',
+                600: '#0284c7',
+                700: '#0369a1',
+                800: '#075985',
+                900: '#0c4a6e',
+              },
+              'dark-bg': '#0a0a0a',
+            },
+            animation: {
+              'float': 'float 6s ease-in-out infinite',
+              'fade-in': 'fadeIn 0.6s ease-out forwards',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0px) translateX(0px)' },
+                '33%': { transform: 'translateY(-20px) translateX(10px)' },
+                '66%': { transform: 'translateY(10px) translateX(-10px)' },
+              },
+              fadeIn: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+            },
+          },
+        },
+      }
+    </script>
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+      
+      * {
+        font-family: 'Inter', sans-serif;
+      }
+      
+      body {
+        background: #0a0a0a;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+      
+      .gradient-text {
+        background: linear-gradient(135deg, #0ea5e9, #8b5cf6, #ec4899);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      
+      .glass {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      
+      .gradient-glow {
+        background: radial-gradient(ellipse at center, rgba(14, 165, 233, 0.1) 0%, transparent 70%);
+      }
+      
+      .scroll-animate {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.6s ease-out;
+      }
+      
+      .scroll-animate.animate-fade-in {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-CtIwSeyW.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BN6htsmI.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
