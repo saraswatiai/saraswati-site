@@ -1,0 +1,30 @@
+[
+  {
+    "id": "peek",
+    "title": "Peek",
+    "description": "A lightweight library for tracking and attributing knowledge sources in your applications.",
+    "features": [
+      "Simple API for source attribution",
+      "Chain of custody tracking",
+      "Export to multiple formats",
+      "Zero dependencies"
+    ],
+    "tech": ["TypeScript", "Node.js", "Browser"],
+    "github": "https://github.com/saraswati/peek",
+    "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
+  },
+  {
+    "id": "maitre",
+    "title": "Maitre",
+    "description": "Build interconnected knowledge graphs with proper source attribution and versioning.",
+    "features": [
+      "Graph database integration",
+      "Relationship mapping",
+      "Visual graph explorer",
+      "Version control for nodes"
+    ],
+    "tech": ["Python", "Neo4j", "React"],
+    "github": "https://github.com/saraswati/maitre",
+    "image": "https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg"
+  }
+]
