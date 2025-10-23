@@ -53,9 +53,6 @@ export default function Home() {
             <Button variant="primary" size="lg" href="#solutions">
               Explore Solutions
             </Button>
-            <Button variant="outline" size="lg" href="https://github.com">
-              View on GitHub
-            </Button>
           </div>
 
           <div className="mt-24 grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
@@ -153,6 +150,31 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-white mb-2">{solution.title}</h3>
                 <p className="text-gray-300 mb-4">{solution.description}</p>
 
+                <div className="flex items-center space-x-4 mb-4">
+                  <a
+                    href={solution.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-400 hover:text-primary-300 transition-colors duration-200"
+                    title="Watch Demo"
+                  >
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                    </svg>
+                  </a>
+                  <a
+                    href={solution.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary-400 hover:text-primary-300 transition-colors duration-200"
+                    title="View on GitHub"
+                  >
+                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                      <path fillRule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clipRule="evenodd"/>
+                    </svg>
+                  </a>
+                </div>
+
                 <div className="space-y-2 mb-4">
                   {solution.features.slice(0, 3).map((feature) => (
                     <div key={feature} className="flex items-start space-x-2 text-sm text-gray-400">
@@ -184,23 +206,6 @@ export default function Home() {
                     </span>
                   ))}
                 </div>
-
-                <a
-                  href={solution.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center space-x-2 text-primary-400 hover:text-primary-300 transition-colors duration-200"
-                >
-                  <span>View on GitHub</span>
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M14 5l7 7m0 0l-7 7m7-7H3"
-                    />
-                  </svg>
-                </a>
               </Card>
             ))}
           </div>
@@ -216,13 +221,13 @@ export default function Home() {
             </h2>
             <blockquote className="border-l-4 border-primary-500 pl-6 mb-8">
               <p className="text-xl text-gray-200 italic mb-4">
-                "Data without good information architecture is just noise."
+                "A wonderful harmony is created when we join together the seemingly unconnected."
               </p>
-              <cite className="text-gray-400 not-italic">— Kofi</cite>
+              <cite className="text-gray-400 not-italic">— Heraclitus</cite>
             </blockquote>
             <p className="text-lg text-gray-300 mb-6">
-              Named after the goddess of knowledge, wisdom, and learning, Saraswati embodies the
-              principle that knowledge grows when shared freely with proper attribution.
+              Named after the Hindu goddess of knowledge, wisdom, and learning, Saraswati embodies the
+              principle that knowledge grows when shared freely.
             </p>
 
             <div className="space-y-4">

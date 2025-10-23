@@ -2,29 +2,31 @@
   {
     "id": "peek",
     "title": "Peek",
-    "description": "A lightweight library for tracking and attributing knowledge sources in your applications.",
+    "description": "Chrome extension to easily capture JSON payloads being exchanged with API endpoints.",
     "features": [
-      "Simple API for source attribution",
-      "Chain of custody tracking",
-      "Export to multiple formats",
+      "Capture JSON payloads",
+      "Ignore domain-specific payloads",
+      "Export all the traffic from a domain to JSON",
       "Zero dependencies"
     ],
-    "tech": ["TypeScript", "Node.js", "Browser"],
+    "tech": ["TypeScript", "Chrome Extension", "Dashboard"],
     "github": "https://github.com/saraswatiai/peek",
+    "demo": "https://youtu.be/90pX19ukKMc",
     "image": "./peek-thumbnail.png"
   },
   {
     "id": "maitre",
     "title": "Maitre",
-    "description": "Build interconnected knowledge graphs with proper source attribution and versioning.",
+    "description": "Ontology editor frontend for Protege.",
     "features": [
-      "Graph database integration",
-      "Relationship mapping",
-      "Visual graph explorer",
-      "Version control for nodes"
+      "Semantic Web technologies",
+      "SPARQL/Manhattan queries",
+      "Integrated Graph Visualizer",
+      "Protege"
     ],
-    "tech": ["Python", "Neo4j", "React"],
+    "tech": ["React", "Java", "Protege"],
     "github": "https://github.com/saraswatiai/maitre",
+    "demo": "https://youtu.be/hlmTJ0q3cpI",
     "image": "./maitre-thumbnail.png"
   }
 ]
